@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, CallbackQuery
 from config import OWNER_ID, F_SUB
-from TechVJ.db import db
+from Goku.db import db
 
 @Client.on_message(filters.private & filters.incoming & filters.command("start"))
 async def start(bot: Client, msg: Message):
@@ -32,8 +32,8 @@ async def start(bot: Client, msg: Message):
             [[
                 InlineKeyboardButton(text="⚡ Generate String Session ⚡", callback_data="generate")
             ],[
-                InlineKeyboardButton("❣️ Support Group ❣️", url="https://t.me/VJ_Bot_Disscussion"),
-                InlineKeyboardButton("🥀 Update Channel 🥀", url="https://t.me/VJ_Botz")
+                InlineKeyboardButton("❣️ Support Group ❣️", url="https://t.me/eternal_bot_support"),
+                InlineKeyboardButton("🥀 Update Channel 🥀", url="https://t.me/eternal_bot_update")
             ]]
         )
     )
