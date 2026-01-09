@@ -1,4 +1,4 @@
-## VJ String Session Generator Bot 
+##  String Session Generator Bot 
  
 ### Features
 
@@ -26,4 +26,4 @@
 
 ## Credits
 
-- <b>[Tech VJ](https://youtube.com/@Tech_VJ)</b>
+
